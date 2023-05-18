@@ -41,7 +41,7 @@
                         <Frame BackgroundColor="Blue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
                             <Image Source="https://cdn-icons-png.flaticon.com/512/5087/5087607.png" Margin="0"/>
                         </Frame>
-                        <Entry Text="{Binding UserName}" Placeholder="username" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                        <Entry x:Name="UserName" Placeholder="username" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
                     </StackLayout>
                 </Frame>
                 <Frame BackgroundColor="Transparent" BorderColor="LightGreen" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
@@ -49,7 +49,7 @@
                         <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
                             <Image Source="https://icons.veryicon.com/png/o/miscellaneous/dh_report/login-page-password.png" Margin="0"/>
                         </Frame>
-                        <Entry Text="{Binding Password}" Placeholder="password" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                        <Entry x:Name="Password" Placeholder="password" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
                     </StackLayout>
                 </Frame>
 
@@ -60,7 +60,7 @@
                 </StackLayout>
             
 
-            <Button Text="SIGN IN" BackgroundColor="#58D68D" TextColor="White" FontAttributes="Bold" CornerRadius="30" WidthRequest="200" Margin="0,15,0,0" Command="{Binding LoginCommand}"/>
+            <Button Text="SIGN IN" BackgroundColor="#58D68D" TextColor="White" FontAttributes="Bold" CornerRadius="30" Clicked="SingInClickd" WidthRequest="200" Margin="0,15,0,0"/>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,10,0,0" Padding="0">
                     <Label Text="New User? " TextColor="DarkGray" FontSize="Small"/>
