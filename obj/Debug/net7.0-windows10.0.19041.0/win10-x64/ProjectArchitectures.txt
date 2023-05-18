@@ -1,0 +1,1 @@
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\MyFirstMAUI_Project.csproj;x64
