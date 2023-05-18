@@ -8,7 +8,7 @@ public partial class LoginPage : ContentPage
 	{
 		InitializeComponent();
     }
-    private async void OnSignUpTapped(object sender, EventArgs e)
+    public async void OnSignUpTapped(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new SignInPage());
     }

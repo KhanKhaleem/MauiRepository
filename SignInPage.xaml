@@ -38,20 +38,20 @@
         <StackLayout Grid.Row="3" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
             <Frame BackgroundColor="Transparent" BorderColor="LightGreen" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
                 <StackLayout Orientation="Horizontal">
-                    <Entry Text="{Binding UserName}" Placeholder="username" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="10,0,20,0"/>
+                    <Entry x:Name="UserName" Placeholder="username" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="10,0,20,0"/>
                 </StackLayout>
             </Frame>
             <Frame BackgroundColor="Transparent" BorderColor="LightGreen" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
                 <StackLayout Orientation="Horizontal">
-                    <Entry Text="{Binding Email}" Placeholder="Email" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="10,0,20,0"/>
+                        <Entry x:Name="Email" Placeholder="Email" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="10,0,20,0"/>
                 </StackLayout>
             </Frame>
             <Frame BackgroundColor="Transparent" BorderColor="LightGreen" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
                 <StackLayout Orientation="Horizontal">
-                    <Entry Text="{Binding Password}" Placeholder="password" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="10,0,20,0"/>
+                        <Entry x:Name="Password" Placeholder="password" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="10,0,20,0"/>
                 </StackLayout>
             </Frame>
-            <Button Text="Sign Up" BackgroundColor="#58D68D" TextColor="White" FontAttributes="Bold" CornerRadius="30" WidthRequest="200" Margin="0,15,0,0" Command="{Binding SignUpCommand}"/>
+            <Button Text="Sign Up" BackgroundColor="#58D68D" Clicked="SingUpClick" TextColor="White" FontAttributes="Bold" CornerRadius="30" WidthRequest="200" Margin="0,15,0,0"/>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,10,0,0" Padding="0">
                     <Label Text="Already have an account? " TextColor="DarkGray" FontSize="Small"/>

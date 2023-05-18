@@ -6,26 +6,26 @@ namespace MyFirstMAUI_Project.ViwModels
 {
     public class UserInfoViewModel : ObservableObject
     {
-        //private readonly ILoginRepository _loginRepository;
-        //public UserInfoViewModel(ILoginRepository loginRepository)
+        //private readonly iloginrepository _loginrepository;
+        //public userinfoviewmodel(iloginrepository loginrepository)
         //{
-        //    _loginRepository = loginRepository;
+        //    _loginrepository = loginrepository;
         //}
 
-        //[ObservableProperty]
+        //[observableproperty]
         //private string _username;
-        //[ObservableProperty]
+        //[observableproperty]
         //private string _password;
-        //[ObservableProperty]
+        //[observableproperty]
         //private string _email;
-        //[ICommand]
-        //public void SignInPage()
+        //[icommand]
+        //public void signinpage()
         //{
-        //    //var response = _loginRepository.SignIn(new Models.UserInfo
+        //    //var response = _loginrepository.signin(new models.userinfo
         //    //{
-        //    //    UserName = Username,
-        //    //    UserPassword = Password,
-        //    //    Email = Email,
+        //    //    username = username,
+        //    //    userpassword = password,
+        //    //    email = email,
         //    //});
         //}
     }
