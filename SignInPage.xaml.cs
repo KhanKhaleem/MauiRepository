@@ -5,17 +5,12 @@ namespace MyFirstMAUI_Project;
 
 public partial class SignInPage : ContentPage
 {
-    ILoginRepository repository;
+    ILoginRepository repository = new LoginRepository();
 
     public SignInPage()
     {
         InitializeComponent();
     }
-
-    public SignInPage(ILoginRepository repository)
-	{
-        this.repository = repository;
-	}
     private async void OnSignInTapped(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new LoginPage());

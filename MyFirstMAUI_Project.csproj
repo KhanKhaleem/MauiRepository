@@ -49,6 +49,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\about.png" />
+	  <None Remove="Resources\Images\contect.png" />
+	  <None Remove="Resources\Images\Home.png" />
+	  <None Remove="Resources\Images\Menu.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="Microsoft.Toolkit.Mvvm" Version="7.1.2" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
@@ -60,16 +67,24 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Dasboard.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="LoginPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="SignInPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="img\" />
+	  <MauiXaml Update="Views\About.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\ContectPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\HomePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

@@ -22,6 +22,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MyFirstMAUI_Project.AppShe
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[E:/.NetTestProject/MyFirstMAUI_Project/MyFirstMAUI_Project/Dasboard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyFirstMAUI_Project.Dasboard.xaml
+build_metadata.AdditionalFiles.TargetPath = Dasboard.xaml
+build_metadata.AdditionalFiles.RelativePath = Dasboard.xaml
+
 [E:/.NetTestProject/MyFirstMAUI_Project/MyFirstMAUI_Project/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MyFirstMAUI_Project.LoginPage.xaml
@@ -51,3 +57,21 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MyFirstMAUI_Project.SignInPage.xaml
 build_metadata.AdditionalFiles.TargetPath = SignInPage.xaml
 build_metadata.AdditionalFiles.RelativePath = SignInPage.xaml
+
+[E:/.NetTestProject/MyFirstMAUI_Project/MyFirstMAUI_Project/Views/About.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyFirstMAUI_Project.Views.About.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\About.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\About.xaml
+
+[E:/.NetTestProject/MyFirstMAUI_Project/MyFirstMAUI_Project/Views/ContectPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyFirstMAUI_Project.Views.ContectPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ContectPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ContectPage.xaml
+
+[E:/.NetTestProject/MyFirstMAUI_Project/MyFirstMAUI_Project/Views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyFirstMAUI_Project.Views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml

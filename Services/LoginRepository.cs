@@ -31,16 +31,11 @@ namespace MyFirstMAUI_Project.Servises
            _connection.InsertAsync(userInfo);
         }
 
-        public void Login(string username, string password)
+        public async Task<int> Login(string UserName, string Password)
         {
-            if (username == "kaleem" || password == "123")
-            {
-                Shell.Current.DisplayAlert("Welcome Kaleem", "Login", "OK");
-            }
-            else
-            {
-                Shell.Current.DisplayAlert("Please try again", "Login", "OK");
-            }
+            var user = await _connection.Table<UserInfo>().FirstOrDefaultAsync(x=> x.UserName == UserName && x.UserPassword == Password);
+            return 0;
+
         }
     }
 }

@@ -4,10 +4,20 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MyFirstMAUI_Project"
-    Shell.FlyoutBehavior="Disabled">
+    xmlns:Views="clr-namespace:MyFirstMAUI_Project.Views"
+    xmlns:Models="clr-namespace:MyFirstMAUI_Project.Models"
+    Shell.TabBarIsVisible="False">
 
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:LoginPage}"
-        Route="MainPage" />
+        FlyoutItemIsVisible="False"
+        Shell.FlyoutBehavior="Disabled"
+        Route="LoginPage" />
+
+    <FlyoutItem Route="HomePage" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Home" Icon="{x:Static Models:Icon.Home}" ContentTemplate="{DataTemplate Views:HomePage}"/>
+        <ShellContent Title="About" Icon="{x:Static Models:Icon.About}" ContentTemplate="{DataTemplate Views:About}"/>
+        <ShellContent Title="Contect" Icon="{x:Static Models:Icon.Contect}" ContentTemplate="{DataTemplate Views:ContectPage}"/>
+    </FlyoutItem>
 </Shell>

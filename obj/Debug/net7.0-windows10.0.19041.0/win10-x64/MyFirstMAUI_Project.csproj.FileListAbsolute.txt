@@ -330,3 +330,9 @@ E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\bin\Debug\net7.0-wind
 E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.e_sqlite3.dll
 E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.sqlite3.dll
 E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\about_us.scale-100.png
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\contect_us.scale-100.png
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu.scale-100.png
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\about.scale-100.png
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\contect.scale-100.png

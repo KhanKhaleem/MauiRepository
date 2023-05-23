@@ -10,6 +10,6 @@ namespace MyFirstMAUI_Project.Servises
     public interface ILoginRepository
     {
         public void SignIn(UserInfo userInfo);
-        public void Login(string username, string password);
+        public Task<int>Login(string UserName , string Password);
     }
 }

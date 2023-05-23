@@ -1,16 +1,11 @@
-using MyFirstMAUI_Project.Models;
 using MyFirstMAUI_Project.Servises;
-using MyFirstMAUI_Project.ViwModels;
+using MyFirstMAUI_Project.Views;
 
 namespace MyFirstMAUI_Project;
 
 public partial class LoginPage : ContentPage
 {
-//     ILoginRepository repository;
-//    public LoginPage(ILoginRepository repository)
-//      {
-//         this.repository = repository;
-//      }
+    ILoginRepository repository = new LoginRepository();
     public LoginPage()
 	{
 		InitializeComponent();
@@ -19,10 +14,14 @@ public partial class LoginPage : ContentPage
     {
         await Navigation.PushAsync(new SignInPage());
     }
-    public void SingInClickd(object sender, EventArgs e)
+    public async void SingInClickd(object sender, EventArgs e)
     {
-        //string username = UserName.Text;
-        //string password = Password.Text;
-        //repository.Login(username, password);
+        string username = UserName.Text;
+        string password = Password.Text;       
+        var loginuser =repository.Login(username , password);
+        if (loginuser.Id >0) 
+        {
+            await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
+        }
     }
 }

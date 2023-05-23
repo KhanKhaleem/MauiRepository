@@ -273,3 +273,9 @@ E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\bin\Debug\net7.0-ios\
 E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.core.dll
 E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
 E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.provider.sqlite3.dll
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\about_us.png
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\contect_us.png
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\home.png
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\menu.png
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\about.png
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\contect.png

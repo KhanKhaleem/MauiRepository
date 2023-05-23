@@ -265,3 +265,9 @@ E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\bin\Debug\net7.0-macc
 E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.provider.e_sqlite3.dll
 E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.provider.sqlite3.dll
 E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libe_sqlite3.dylib
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\about_us.png
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\contect_us.png
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\home.png
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\menu.png
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\about.png
+E:\.NetTestProject\MyFirstMAUI_Project\MyFirstMAUI_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\contect.png
